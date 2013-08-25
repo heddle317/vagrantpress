@@ -1,11 +1,11 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 
-	DocumentRoot /vagrant/wordpress
+	DocumentRoot /vagrant/jhana-wordpress
 	RewriteLogLevel 9
 	RewriteLog ${APACHE_LOG_DIR}/vagrant.rewrite.log
 
-	<Directory /vagrant/wordpress>
+	<Directory /vagrant/jhana-wordpress>
 	    Options Indexes FollowSymLinks
 	    AllowOverride None
 	    RewriteEngine On
